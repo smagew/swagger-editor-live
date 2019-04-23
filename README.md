@@ -6,7 +6,7 @@ UI for swagger file editing. Based on swagger-editor-live npm package (https://w
 
 
 ```bash
-$ docker run -ti --rm -v ${PWD}:src -p 8000:8000 swagger-editor:latest
+$ docker run -ti --rm -v ${PWD}:src -p 8000:8000 swagger-edit-online:latest
 ```
 
 
