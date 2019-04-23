@@ -3,10 +3,10 @@
 usage()
 {
     echo "usage: [[-f][-port]]"
-    echo "./entrypoint.sh -f /var/project/swagger.sjon -port 8000"
+    echo "./entrypoint.sh -f /src/swagger.json -port 8000"
 }
 
-SWAGGER_FILE=${PWD}/swagger.json
+SWAGGER_FILE=/src/swagger.json
 EDITOR_PORT=8000
 
 while [ "$1" != "" ]; do
@@ -17,7 +17,8 @@ while [ "$1" != "" ]; do
         -port ) shift
             EDITOR_PORT=$1
         ;;
-        * )  usage
+        * )
+             usage
              exit 1
     esac
     shift
