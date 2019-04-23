@@ -4,7 +4,6 @@ RUN npm install swagger-editor-live -g
 
 COPY ./entrypoint.sh /entrypoint.sh
 
-RUN chmod +x /entrypoint.sh \
-    dos2unix /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
