@@ -1,6 +1,8 @@
 ## About
 
-UI for swagger file editing. Based on swagger-editor-live npm package (https://www.npmjs.com/package/swagger-editor-live) - a live swagger editor that saves your changes back to the file.
+UI for swagger file editing. Based on [`swagger-editor-live`](https://www.npmjs.com/package/swagger-editor-live) npm package ([official repository](https://github.com/moon0326/swagger-editor-live#readme)) - a live swagger editor that saves your changes back to the file.
+
+
 
 ## Usage
 
